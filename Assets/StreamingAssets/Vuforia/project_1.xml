@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="what" size="0.145000 0.219621" />
+    <ImageTarget name="fahrenheit_451_back_cover" size="0.145000 0.220296" />
+    <ImageTarget name="fahrenheit_451_cover_art" size="0.145000 0.222679" />
+  </Tracking>
+</QCARConfig>
