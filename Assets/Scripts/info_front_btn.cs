@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
-public class Button : MonoBehaviour, IVirtualButtonEventHandler
+public class info_front_btn : MonoBehaviour, IVirtualButtonEventHandler
 {
 
     public GameObject btn;
