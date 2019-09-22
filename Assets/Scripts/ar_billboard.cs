@@ -16,4 +16,6 @@ public class ar_billboard : MonoBehaviour
     {
         this.gameObject.transform.rotation = Quaternion.LookRotation(camera.transform.position);
     }
+
+
 }

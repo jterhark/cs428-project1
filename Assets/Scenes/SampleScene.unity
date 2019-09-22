@@ -7716,13 +7716,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Sed euismod tempus gravida. In eget velit justo. Pellentesque vel iaculis
-    quam. Duis varius sagittis nulla ac sagittis. Proin porttitor mi id mauris gravida,
-    ut bibendum dui tristique. Etiam porttitor, purus at sollicitudin ullamcorper,
-    ligula augue faucibus lectus, sed suscipit nunc tellus vel lorem. In ultrices
-    molestie justo in malesuada. Duis odio eros, euismod ac mollis sed, malesuada
-    in purus. Aenean at ex faucibus, sagittis sapien eget, elementum mi. Mauris nunc
-    nisi, dictum euismod vestibulum a, dictum quis erat.
+  m_text: "Ever since my child read this book, he has been cowering in his room afraid
+    of going outside. He says the \u201Cfiremen are coming to hurt him.\u201D This
+    book makes children distrust authority and should be permanently banned from all
+    bookstores!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7750,8 +7747,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 10.43
-  m_fontSizeBase: 10.43
+  m_fontSize: 16.03
+  m_fontSizeBase: 16.03
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7767,7 +7764,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 211
+  m_firstOverflowCharacterIndex: 69
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -7791,12 +7788,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -7.1909986, w: 0}
   m_textInfo:
     textComponent: {fileID: 1195161264}
-    characterCount: 526
+    characterCount: 237
     spriteCount: 0
-    spaceCount: 78
-    wordCount: 79
+    spaceCount: 40
+    wordCount: 41
     linkCount: 0
-    lineCount: 10
+    lineCount: 8
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -7977,6 +7974,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1228363654}
+  - component: {fileID: 1228363655}
   m_Layer: 0
   m_Name: langBtn
   m_TagString: Untagged
@@ -8000,6 +7998,27 @@ Transform:
   m_Father: {fileID: 1875761674}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1228363655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228363653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8591b0865002e94bacbbe7de0cf6d9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LangButton: {fileID: 1426698876}
+  TitleOne: {fileID: 1167755482}
+  TextOne: {fileID: 1234016352}
+  TitleTwo: {fileID: 1953179230}
+  TextTwo: {fileID: 1195161262}
+  InfoBtnText: {fileID: 23255195}
+  InfoPages: {fileID: 1233507046}
+  InfoPub: {fileID: 155924012}
+  InfoGenre: {fileID: 362300317}
 --- !u!1 &1233507046
 GameObject:
   m_ObjectHideFlags: 0
@@ -11691,7 +11710,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Review Two
+  m_text: Ban This Book
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11757,13 +11776,13 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -4.2542806, w: 0}
+  m_margin: {x: 0, y: 0, z: -6.0901227, w: 0}
   m_textInfo:
     textComponent: {fileID: 1953179232}
-    characterCount: 10
+    characterCount: 13
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 2
+    wordCount: 3
     linkCount: 0
     lineCount: 1
     pageCount: 1
